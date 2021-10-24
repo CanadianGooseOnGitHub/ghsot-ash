@@ -1,5 +1,6 @@
 package;
 
+import flixel.FlxSprite;
 import flixel.FlxG;
 import flixel.FlxObject;
 import flixel.FlxSubState;
@@ -12,7 +13,7 @@ import flixel.tweens.FlxTween;
 
 class GameOverSubstate extends MusicBeatSubstate
 {
-	var bf:Boyfriend;
+	var die:FlxSprite;
 	var camFollow:FlxPoint;
 	var camFollowPos:FlxObject;
 	var updateCamera:Bool = false;
@@ -41,19 +42,31 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		Conductor.songPosition = 0;
 
-		bf = new Boyfriend(x, y, characterName);
-		add(bf);
-
-		camFollow = new FlxPoint(bf.getGraphicMidpoint().x, bf.getGraphicMidpoint().y);
+		die = new FlxSprite(-350, -150);
+		die.animation.addByPrefix('die', 'die', true);
+		die.scrollFactor.set();
+		die.alpha = 0;
 
 		FlxG.sound.play(Paths.sound(deathSoundName));
+		FlxG.camera.flash(FlxColor.RED, 0.6);
 		Conductor.changeBPM(100);
 		// FlxG.camera.followLerp = 1;
 		// FlxG.camera.focusOn(FlxPoint.get(FlxG.width / 2, FlxG.height / 2));
 		FlxG.camera.scroll.set();
 		FlxG.camera.target = null;
 
-		bf.playAnim('firstDeath');
+		new FlxTimer().start(1.5, function(tmr:FlxTimer)
+		{
+			add(die);
+			FlxTween.tween(die, {alpha: 1}, 1,
+			{
+				onComplete: function(twn:FlxTween)
+				{
+					die.animation.play('die', true);
+					coolStartDeath();
+				}
+			});
+		});
 
 		var exclude:Array<Int> = [];
 
@@ -92,21 +105,6 @@ class GameOverSubstate extends MusicBeatSubstate
 			lePlayState.callOnLuas('onGameOverConfirm', [false]);
 		}
 
-		if (bf.animation.curAnim.name == 'firstDeath')
-		{
-			if(bf.animation.curAnim.curFrame == 12)
-			{
-				FlxG.camera.follow(camFollowPos, LOCKON, 1);
-				updateCamera = true;
-			}
-
-			if (bf.animation.curAnim.finished)
-			{
-				coolStartDeath();
-				bf.startedDeath = true;
-			}
-		}
-
 		if (FlxG.sound.music.playing)
 		{
 			Conductor.songPosition = FlxG.sound.music.time;
@@ -133,7 +131,6 @@ class GameOverSubstate extends MusicBeatSubstate
 		if (!isEnding)
 		{
 			isEnding = true;
-			bf.playAnim('deathConfirm', true);
 			FlxG.sound.music.stop();
 			FlxG.sound.play(Paths.music(endSoundName));
 			new FlxTimer().start(0.7, function(tmr:FlxTimer)

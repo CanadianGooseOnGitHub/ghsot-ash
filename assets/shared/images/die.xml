@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="die.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="die0000" x="100" y="100" width="1103" height="633" frameX="-1" frameY="0" frameWidth="1110" frameHeight="635"/>
+	<SubTexture name="die0001" x="100" y="100" width="1103" height="633" frameX="-1" frameY="0" frameWidth="1110" frameHeight="635"/>
+	<SubTexture name="die0002" x="100" y="100" width="1103" height="633" frameX="-1" frameY="0" frameWidth="1110" frameHeight="635"/>
+	<SubTexture name="die0003" x="100" y="100" width="1103" height="633" frameX="-1" frameY="0" frameWidth="1110" frameHeight="635"/>
+	<SubTexture name="die0004" x="1303" y="100" width="1105" height="634" frameX="-1" frameY="0" frameWidth="1110" frameHeight="635"/>
+	<SubTexture name="die0005" x="1303" y="100" width="1105" height="634" frameX="-1" frameY="0" frameWidth="1110" frameHeight="635"/>
+	<SubTexture name="die0006" x="1303" y="100" width="1105" height="634" frameX="-1" frameY="0" frameWidth="1110" frameHeight="635"/>
+	<SubTexture name="die0007" x="1303" y="100" width="1105" height="634" frameX="-1" frameY="0" frameWidth="1110" frameHeight="635"/>
+	<SubTexture name="die0008" x="1303" y="100" width="1105" height="634" frameX="-1" frameY="0" frameWidth="1110" frameHeight="635"/>
+	<SubTexture name="die0009" x="2508" y="100" width="1110" height="634" frameX="0" frameY="-1" frameWidth="1110" frameHeight="635"/>
+	<SubTexture name="die0010" x="2508" y="100" width="1110" height="634" frameX="0" frameY="-1" frameWidth="1110" frameHeight="635"/>
+	<SubTexture name="die0011" x="2508" y="100" width="1110" height="634" frameX="0" frameY="-1" frameWidth="1110" frameHeight="635"/>
+	<SubTexture name="die0012" x="2508" y="100" width="1110" height="634" frameX="0" frameY="-1" frameWidth="1110" frameHeight="635"/>
+	<SubTexture name="die0013" x="2508" y="100" width="1110" height="634" frameX="0" frameY="-1" frameWidth="1110" frameHeight="635"/>
+</TextureAtlas>
