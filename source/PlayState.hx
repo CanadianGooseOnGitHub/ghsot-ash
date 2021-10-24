@@ -3522,6 +3522,26 @@ class PlayState extends MusicBeatState
 		iconP1.updateHitbox();
 		iconP2.updateHitbox();
 
+		if (curSong == 'She-Is')
+		{
+			if (curStep == 240)
+			{
+				var sad:FlxSprite = new FlxSprite().loadGraphic(Paths.image('sad'));
+				sad.screenCenter();
+				sad.scrollFactor.set();
+				sad.cameras = [camHUD];
+				add(sad);
+				FlxG.sound.play(Paths.sound('boom'), 1.6);
+				FlxTween.tween(sad, {alpha: 0}, 1,
+				{
+					onComplete: function(twn:FlxTween)
+					{
+						remove(sad);
+					}
+				});
+			}
+		}
+
 		if (curBeat % gfSpeed == 0 && !gf.stunned && gf.animation.curAnim.name != null && !gf.animation.curAnim.name.startsWith("sing"))
 		{
 			gf.dance();
