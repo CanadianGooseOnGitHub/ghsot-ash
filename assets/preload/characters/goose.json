@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				23,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left Goose"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-4
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Right Goose",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				17,
+				-44
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down Goose",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				22,
+				0
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Left miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-12,
+				-4
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Right miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				22,
+				-33
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Down Miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-1,
+				37
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "up miss"
+		},
+		{
+			"offsets": [
+				-12,
+				37
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up Goose"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/GooseAnim",
+	"position": [
+		70,
+		180
+	],
+	"healthicon": "goose",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		70,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Ash_but_hes_fucking_dead.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle0000" x="0" y="0" width="369" height="625" frameX="0" frameY="-23" frameWidth="369" frameHeight="648"/>
+	<SubTexture name="Idle0001" x="0" y="0" width="369" height="625" frameX="0" frameY="-23" frameWidth="369" frameHeight="648"/>
+	<SubTexture name="Idle0002" x="469" y="0" width="351" height="629" frameX="-9" frameY="-14" frameWidth="369" frameHeight="648"/>
+	<SubTexture name="Idle0003" x="469" y="0" width="351" height="629" frameX="-9" frameY="-14" frameWidth="369" frameHeight="648"/>
+	<SubTexture name="Idle0004" x="920" y="0" width="304" height="639" frameX="-39" frameY="-1" frameWidth="369" frameHeight="648"/>
+	<SubTexture name="Idle0005" x="920" y="0" width="304" height="639" frameX="-39" frameY="-1" frameWidth="369" frameHeight="648"/>
+	<SubTexture name="Idle0006" x="1324" y="0" width="303" height="648" frameX="-45" frameY="0" frameWidth="369" frameHeight="648"/>
+	<SubTexture name="Idle0007" x="1324" y="0" width="303" height="648" frameX="-45" frameY="0" frameWidth="369" frameHeight="648"/>
+	<SubTexture name="Idle0008" x="1727" y="0" width="303" height="643" frameX="-45" frameY="0" frameWidth="369" frameHeight="648"/>
+	<SubTexture name="Idle0009" x="1727" y="0" width="303" height="643" frameX="-45" frameY="0" frameWidth="369" frameHeight="648"/>
+	<SubTexture name="Idle0010" x="2130" y="0" width="306" height="640" frameX="-42" frameY="0" frameWidth="369" frameHeight="648"/>
+	<SubTexture name="Idle0011" x="2130" y="0" width="306" height="640" frameX="-42" frameY="0" frameWidth="369" frameHeight="648"/>
+	<SubTexture name="Idle0012" x="1324" y="0" width="303" height="648" frameX="-45" frameY="0" frameWidth="369" frameHeight="648"/>
+	<SubTexture name="Idle0013" x="1324" y="0" width="303" height="648" frameX="-45" frameY="0" frameWidth="369" frameHeight="648"/>
+	<SubTexture name="Left sing0000" x="2536" y="0" width="398" height="580" frameX="-15" frameY="-6" frameWidth="413" frameHeight="596"/>
+	<SubTexture name="Left sing0001" x="2536" y="0" width="398" height="580" frameX="-15" frameY="-6" frameWidth="413" frameHeight="596"/>
+	<SubTexture name="Left sing0002" x="3034" y="0" width="404" height="591" frameX="-5" frameY="0" frameWidth="413" frameHeight="596"/>
+	<SubTexture name="Left sing0003" x="3034" y="0" width="404" height="591" frameX="-5" frameY="0" frameWidth="413" frameHeight="596"/>
+	<SubTexture name="Left sing0004" x="3538" y="0" width="405" height="586" frameX="0" frameY="-2" frameWidth="413" frameHeight="596"/>
+	<SubTexture name="Left sing0005" x="3538" y="0" width="405" height="586" frameX="0" frameY="-2" frameWidth="413" frameHeight="596"/>
+	<SubTexture name="Left sing0006" x="0" y="748" width="397" height="594" frameX="-8" frameY="-2" frameWidth="413" frameHeight="596"/>
+	<SubTexture name="Left sing0007" x="0" y="748" width="397" height="594" frameX="-8" frameY="-2" frameWidth="413" frameHeight="596"/>
+	<SubTexture name="Left sing0008" x="497" y="748" width="399" height="589" frameX="-6" frameY="-2" frameWidth="413" frameHeight="596"/>
+	<SubTexture name="Left sing0009" x="497" y="748" width="399" height="589" frameX="-6" frameY="-2" frameWidth="413" frameHeight="596"/>
+	<SubTexture name="Left sing0010" x="3538" y="0" width="405" height="586" frameX="0" frameY="-2" frameWidth="413" frameHeight="596"/>
+	<SubTexture name="Left sing0011" x="3538" y="0" width="405" height="586" frameX="0" frameY="-2" frameWidth="413" frameHeight="596"/>
+	<SubTexture name="Left sing0012" x="0" y="748" width="397" height="594" frameX="-8" frameY="-2" frameWidth="413" frameHeight="596"/>
+	<SubTexture name="Left sing0013" x="0" y="748" width="397" height="594" frameX="-8" frameY="-2" frameWidth="413" frameHeight="596"/>
+	<SubTexture name="Right sing0000" x="996" y="748" width="277" height="607" frameX="-9" frameY="-3" frameWidth="286" frameHeight="615"/>
+	<SubTexture name="Right sing0001" x="996" y="748" width="277" height="607" frameX="-9" frameY="-3" frameWidth="286" frameHeight="615"/>
+	<SubTexture name="Right sing0002" x="1373" y="748" width="268" height="610" frameX="-6" frameY="0" frameWidth="286" frameHeight="615"/>
+	<SubTexture name="Right sing0003" x="1373" y="748" width="268" height="610" frameX="-6" frameY="0" frameWidth="286" frameHeight="615"/>
+	<SubTexture name="Right sing0004" x="1741" y="748" width="259" height="607" frameX="0" frameY="0" frameWidth="286" frameHeight="615"/>
+	<SubTexture name="Right sing0005" x="1741" y="748" width="259" height="607" frameX="0" frameY="0" frameWidth="286" frameHeight="615"/>
+	<SubTexture name="Right sing0006" x="2100" y="748" width="251" height="615" frameX="-7" frameY="0" frameWidth="286" frameHeight="615"/>
+	<SubTexture name="Right sing0007" x="2100" y="748" width="251" height="615" frameX="-7" frameY="0" frameWidth="286" frameHeight="615"/>
+	<SubTexture name="Right sing0008" x="2451" y="748" width="265" height="610" frameX="-5" frameY="0" frameWidth="286" frameHeight="615"/>
+	<SubTexture name="Right sing0009" x="2451" y="748" width="265" height="610" frameX="-5" frameY="0" frameWidth="286" frameHeight="615"/>
+	<SubTexture name="Right sing0010" x="1741" y="748" width="259" height="607" frameX="0" frameY="0" frameWidth="286" frameHeight="615"/>
+	<SubTexture name="Right sing0011" x="1741" y="748" width="259" height="607" frameX="0" frameY="0" frameWidth="286" frameHeight="615"/>
+	<SubTexture name="Right sing0012" x="2100" y="748" width="251" height="615" frameX="-7" frameY="0" frameWidth="286" frameHeight="615"/>
+	<SubTexture name="Right sing0013" x="2100" y="748" width="251" height="615" frameX="-7" frameY="0" frameWidth="286" frameHeight="615"/>
+	<SubTexture name="Sing down0000" x="2816" y="748" width="277" height="566" frameX="-1" frameY="-20" frameWidth="278" frameHeight="586"/>
+	<SubTexture name="Sing down0001" x="2816" y="748" width="277" height="566" frameX="-1" frameY="-20" frameWidth="278" frameHeight="586"/>
+	<SubTexture name="Sing down0002" x="3193" y="748" width="266" height="579" frameX="-8" frameY="-7" frameWidth="278" frameHeight="586"/>
+	<SubTexture name="Sing down0003" x="3193" y="748" width="266" height="579" frameX="-8" frameY="-7" frameWidth="278" frameHeight="586"/>
+	<SubTexture name="Sing down0004" x="3559" y="748" width="266" height="581" frameX="-6" frameY="0" frameWidth="278" frameHeight="586"/>
+	<SubTexture name="Sing down0005" x="3559" y="748" width="266" height="581" frameX="-6" frameY="0" frameWidth="278" frameHeight="586"/>
+	<SubTexture name="Sing down0006" x="0" y="1463" width="272" height="579" frameX="0" frameY="0" frameWidth="278" frameHeight="586"/>
+	<SubTexture name="Sing down0007" x="0" y="1463" width="272" height="579" frameX="0" frameY="0" frameWidth="278" frameHeight="586"/>
+	<SubTexture name="Sing down0008" x="372" y="1463" width="264" height="586" frameX="-8" frameY="0" frameWidth="278" frameHeight="586"/>
+	<SubTexture name="Sing down0009" x="372" y="1463" width="264" height="586" frameX="-8" frameY="0" frameWidth="278" frameHeight="586"/>
+	<SubTexture name="Sing down0010" x="3559" y="748" width="266" height="581" frameX="-6" frameY="0" frameWidth="278" frameHeight="586"/>
+	<SubTexture name="Sing down0011" x="3559" y="748" width="266" height="581" frameX="-6" frameY="0" frameWidth="278" frameHeight="586"/>
+	<SubTexture name="Sing down0012" x="0" y="1463" width="272" height="579" frameX="0" frameY="0" frameWidth="278" frameHeight="586"/>
+	<SubTexture name="Sing down0013" x="0" y="1463" width="272" height="579" frameX="0" frameY="0" frameWidth="278" frameHeight="586"/>
+	<SubTexture name="Up sing0000" x="736" y="1463" width="451" height="681" frameX="0" frameY="0" frameWidth="458" frameHeight="686"/>
+	<SubTexture name="Up sing0001" x="736" y="1463" width="451" height="681" frameX="0" frameY="0" frameWidth="458" frameHeight="686"/>
+	<SubTexture name="Up sing0002" x="1287" y="1463" width="429" height="673" frameX="-20" frameY="-5" frameWidth="458" frameHeight="686"/>
+	<SubTexture name="Up sing0003" x="1287" y="1463" width="429" height="673" frameX="-20" frameY="-5" frameWidth="458" frameHeight="686"/>
+	<SubTexture name="Up sing0004" x="1816" y="1463" width="431" height="676" frameX="-27" frameY="-10" frameWidth="458" frameHeight="686"/>
+	<SubTexture name="Up sing0005" x="1816" y="1463" width="431" height="676" frameX="-27" frameY="-10" frameWidth="458" frameHeight="686"/>
+	<SubTexture name="Up sing0006" x="2347" y="1463" width="431" height="671" frameX="-27" frameY="-10" frameWidth="458" frameHeight="686"/>
+	<SubTexture name="Up sing0007" x="2347" y="1463" width="431" height="671" frameX="-27" frameY="-10" frameWidth="458" frameHeight="686"/>
+	<SubTexture name="Up sing0008" x="2878" y="1463" width="431" height="668" frameX="-27" frameY="-10" frameWidth="458" frameHeight="686"/>
+	<SubTexture name="Up sing0009" x="2878" y="1463" width="431" height="668" frameX="-27" frameY="-10" frameWidth="458" frameHeight="686"/>
+	<SubTexture name="Up sing0010" x="1816" y="1463" width="431" height="676" frameX="-27" frameY="-10" frameWidth="458" frameHeight="686"/>
+	<SubTexture name="Up sing0011" x="1816" y="1463" width="431" height="676" frameX="-27" frameY="-10" frameWidth="458" frameHeight="686"/>
+	<SubTexture name="Up sing0012" x="2347" y="1463" width="431" height="671" frameX="-27" frameY="-10" frameWidth="458" frameHeight="686"/>
+	<SubTexture name="Up sing0013" x="2347" y="1463" width="431" height="671" frameX="-27" frameY="-10" frameWidth="458" frameHeight="686"/>
+	<SubTexture name="dog0000" x="3409" y="1463" width="306" height="640" frameX="-180" frameY="0" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0001" x="0" y="2244" width="335" height="604" frameX="-158" frameY="-2" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0002" x="435" y="2244" width="373" height="575" frameX="-135" frameY="-4" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0003" x="908" y="2244" width="411" height="546" frameX="-113" frameY="-6" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0004" x="1419" y="2244" width="449" height="516" frameX="-90" frameY="-8" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0005" x="1968" y="2244" width="486" height="500" frameX="-68" frameY="-10" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0006" x="2554" y="2244" width="525" height="539" frameX="-45" frameY="-12" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0007" x="3179" y="2244" width="562" height="578" frameX="-23" frameY="-14" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0008" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0009" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0010" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0011" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0012" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0013" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0014" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0015" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0016" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0017" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0018" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0019" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0020" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0021" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0022" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0023" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0024" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0025" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0026" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0027" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0028" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0029" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0030" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0031" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0032" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0033" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0034" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0035" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0036" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0037" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0038" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0039" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0040" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0041" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0042" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0043" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0044" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0045" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0046" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0047" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0048" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0049" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0050" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0051" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0052" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0053" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0054" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0055" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0056" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0057" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0058" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0059" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0060" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0061" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0062" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0063" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0064" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0065" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0066" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0067" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0068" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0069" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0070" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0071" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0072" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0073" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0074" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0075" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0076" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0077" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0078" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0079" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0080" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0081" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0082" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0083" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0084" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0085" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0086" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0087" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0088" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0089" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0090" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0091" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0092" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0093" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0094" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0095" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0096" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0097" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0098" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0099" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0100" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0101" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0102" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0103" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0104" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0105" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0106" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0107" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0108" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0109" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0110" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0111" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0112" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0113" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0114" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0115" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0116" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0117" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0118" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0119" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0120" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0121" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0122" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0123" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0124" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0125" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0126" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0127" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0128" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0129" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0130" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0131" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0132" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0133" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0134" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0135" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0136" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0137" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0138" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0139" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0140" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0141" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0142" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0143" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0144" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0145" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0146" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0147" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0148" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0149" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0150" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0151" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0152" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0153" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0154" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0155" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0156" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0157" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0158" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0159" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0160" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0161" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0162" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0163" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0164" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0165" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0166" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0167" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0168" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0169" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0170" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0171" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0172" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0173" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0174" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0175" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0176" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0177" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0178" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0179" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0180" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0181" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0182" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0183" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0184" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0185" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0186" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0187" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0188" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0189" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0190" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0191" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0192" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0193" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0194" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0195" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0196" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0197" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0198" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0199" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0200" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0201" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0202" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0203" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0204" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0205" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0206" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0207" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0208" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0209" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0210" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0211" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0212" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0213" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0214" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0215" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0216" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0217" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0218" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0219" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0220" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0221" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0222" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0223" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0224" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0225" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0226" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0227" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0228" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0229" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0230" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0231" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0232" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0233" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0234" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0235" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0236" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0237" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0238" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+	<SubTexture name="dog0239" x="0" y="2948" width="601" height="616" frameX="0" frameY="-16" frameWidth="601" frameHeight="640"/>
+</TextureAtlas>
