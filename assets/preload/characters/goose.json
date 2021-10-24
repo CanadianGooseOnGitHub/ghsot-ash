@@ -1,103 +1,103 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "Idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				23,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Left Goose"
+			"fps": 24,
+			"name": "Left Goose",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-10,
 				-4
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "Right Goose",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right Goose"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				17,
 				-44
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "Down Goose",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down Goose"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				22,
 				0
 			],
-			"anim": "singLEFTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Left miss",
-			"indices": []
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Left miss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-12,
 				-4
 			],
-			"anim": "singRIGHTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Right miss",
-			"indices": []
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Right miss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				22,
 				-33
 			],
-			"anim": "singDOWNmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Down Miss",
-			"indices": []
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Down Miss"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-1,
 				37
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUPmiss",
-			"loop": false,
-			"name": "up miss"
+			"fps": 24,
+			"name": "up miss",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-12,
 				37
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "up Goose"
+			"fps": 24,
+			"name": "up Goose",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -110,8 +110,8 @@
 	"flip_x": true,
 	"healthbar_colors": [
 		255,
-		255,
-		255
+		180,
+		0
 	],
 	"camera_position": [
 		70,
