@@ -24,6 +24,14 @@ class CreditsState extends MusicBeatState
 	private var iconArray:Array<AttachedSprite> = [];
 
 	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
+		['Ghost Ash Team'],
+		['CrystalSlime',        'crystal',          'Music And Director',                               'https://www.youtube.com/channel/UCT_wYKD4twxoYOZt2ggXHlw', 0xFFFFFFFF],
+		['CanadianGoose',       'goose',            'Coding',                                           'https://www.youtube.com/channel/UCfjYxs_8SL1JtL2TqyS-wSg', 0xFFFFFFFF],
+		['Ash',                 'ash',              'ash',                                              'https://twitter.com/ash__i_guess_', 0xFFFFFFFF],
+		['NonsenseNH',          'nonsense',         'Goose Sprites And Animations',                     'https://www.youtube.com/channel/UCnp4LuZgNt0KwiTMSZN7GIw', 0xFFFFFFFF],
+		['AboAlork',            'abo',              'Ghost Ash Sprites And Animations',                 'https://twitter.com/AboAlrokArt', 0xFFFFFFFF],
+		['DamiNation',          'dami',             'Original Goose Sprite',                            'https://twitter.com/DamiNation2020', 0xFFFFFFFF],
+		[''],
 		['Psych Engine Team'],
 		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],
 		['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		0xFFC30085],
@@ -33,8 +41,6 @@ class CreditsState extends MusicBeatState
 		['PolybiusProxy',		'polybiusproxy',	'.MP4 Video Loader Extension',						'https://twitter.com/polybiusproxy',	0xFFE01F32],
 		['gedehari',			'gedehari',			'Chart Editor\'s Sound Waveform base',				'https://twitter.com/gedehari',			0xFFFF9300],
 		['Keoiki',				'keoiki',			'Note Splash Animations',							'https://twitter.com/Keoiki_',			0xFFFFFFFF],
-		['SandPlanet',			'sandplanet',		'Mascot\'s Owner\nMain Supporter of the Engine',		'https://twitter.com/SandPlanetNG',		0xFFD10616],
-		['bubba',				'bubba',		'Guest Composer for "Hot Dilf"',	'https://www.youtube.com/channel/UCxQTnLmv0OAS63yzk9pVfaw',	0xFF61536A],
 		[''],
 		["Funkin' Crew"],
 		['ninjamuffin99',		'ninjamuffin99',	"Programmer of Friday Night Funkin'",				'https://twitter.com/ninja_muffin99',	0xFFF73838],
