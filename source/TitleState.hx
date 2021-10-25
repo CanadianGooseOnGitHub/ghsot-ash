@@ -431,13 +431,13 @@ class TitleState extends MusicBeatState
 			switch (curBeat)
 			{
 				case 1:
-					createCoolText(['mod by'], 45);
+					createCoolText(['mod by'], 0);
 				// credTextShit.visible = true;
 				case 3:
-					addMoreText('canadiangoose', 45);
-					addMoreText('crystalslime', 45);
-					addMoreText('aboalrok', 45);
-					addMoreText('nonsensehumor', 45);
+					addMoreText('canadiangoose', 0);
+					addMoreText('crystalslime', 0);
+					addMoreText('aboalrok', 0);
+					addMoreText('nonsensehumor', 0);
 				// credTextShit.text += '\npresent...';
 				// credTextShit.addText();
 				case 4:
