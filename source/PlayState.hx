@@ -310,6 +310,8 @@ class PlayState extends MusicBeatState
 			{
 				case 'she-is':
 					curStage = 'house';
+				case 'ghost-shark':
+					curStage = 'theslide';
 				default:
 					curStage = 'stage';
 			}
@@ -368,7 +370,11 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
-
+			case 'theslide': //insert dubstep music
+				var bg = new BGSprite('theslide', 0, 0, 0.9, 0.9);
+				bg.screenCenter();
+				add(bg);
+			
 			case 'house': //Ash
 				var bg:BGSprite = new BGSprite('forest', -350, -150, 0.9, 0.9);
 				add(bg);
@@ -388,7 +394,6 @@ class PlayState extends MusicBeatState
 			add(ambience);
 			ambience.alpha = 0.7;
 		
-
 		#if LUA_ALLOWED
 		luaDebugGroup = new FlxTypedGroup<DebugLuaText>();
 		luaDebugGroup.cameras = [camOther];
