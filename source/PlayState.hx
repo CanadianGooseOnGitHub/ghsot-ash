@@ -199,6 +199,7 @@ class PlayState extends MusicBeatState
 	var fastCar:BGSprite;
 
 	var ambience:BGSprite;
+	var slide:BGSprite;
 
 	var upperBoppers:BGSprite;
 	var bottomBoppers:BGSprite;
@@ -308,10 +309,10 @@ class PlayState extends MusicBeatState
 		if(PlayState.SONG.stage == null || PlayState.SONG.stage.length < 1) {
 			switch (songName)
 			{
-				case 'she-is' | 'ghost-shark':
+				case 'she-is':
 					curStage = 'house';
-				/*case 'ghost-shark':
-					curStage = 'theslide';*/
+				case 'ghost-shark':
+					curStage = 'theslide';
 				default:
 					curStage = 'stage';
 			}
@@ -371,8 +372,8 @@ class PlayState extends MusicBeatState
 					add(stageCurtains);
 				}
 			case 'theslide': //insert dubstep music
-				var bg:BGSprite = new BGSprite('theslide', -350, -150, 0.9, 0.9);
-				add(bg);
+				slide = new BGSprite('theslide', 0, 0, 0.9, 0.9);
+				add(slide);
 			
 			case 'house': //Ash
 				var bg:BGSprite = new BGSprite('forest', -350, -150, 0.9, 0.9);
@@ -390,8 +391,6 @@ class PlayState extends MusicBeatState
 
 		if (curStage == 'house')
 			add(ambience);
-			ambience.alpha = 0.7;
-			ambience.screenCenter();
 		
 		#if LUA_ALLOWED
 		luaDebugGroup = new FlxTypedGroup<DebugLuaText>();
@@ -1012,6 +1011,16 @@ class PlayState extends MusicBeatState
 		if(startedCountdown) {
 			callOnLuas('onStartCountdown', []);
 			return;
+		}
+
+		if (curStage == 'house')
+		{
+			ambience.alpha = 0.7;
+			ambience.screenCenter();
+		}
+		if (curStage == 'theslide')
+		{
+			slide.screenCenter();
 		}
 
 		inCutscene = false;
