@@ -467,7 +467,10 @@ class PlayState extends MusicBeatState
 		gf.scrollFactor.set(0.95, 0.95);
 
 		dad = new Character(0, 0, SONG.player2);
-		dad.alpha = 0.5;
+		if (dad.curCharacter == 'ash')
+		{
+			dad.alpha = 0.5;
+		}
 		startCharacterPos(dad, true);
 		dadGroup.add(dad);
 
