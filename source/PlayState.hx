@@ -308,10 +308,10 @@ class PlayState extends MusicBeatState
 		if(PlayState.SONG.stage == null || PlayState.SONG.stage.length < 1) {
 			switch (songName)
 			{
-				case 'she-is':
+				case 'she-is' | 'ghost-shark':
 					curStage = 'house';
-				case 'ghost-shark':
-					curStage = 'theslide';
+				/*case 'ghost-shark':
+					curStage = 'theslide';*/
 				default:
 					curStage = 'stage';
 			}
@@ -371,8 +371,7 @@ class PlayState extends MusicBeatState
 					add(stageCurtains);
 				}
 			case 'theslide': //insert dubstep music
-				var bg = new BGSprite('theslide', 0, 0, 0.9, 0.9);
-				bg.screenCenter();
+				var bg:BGSprite = new BGSprite('theslide', -350, -150, 0.9, 0.9);
 				add(bg);
 			
 			case 'house': //Ash
@@ -380,7 +379,6 @@ class PlayState extends MusicBeatState
 				add(bg);
 				
 				ambience = new BGSprite('ambience', 0, 0, 0.9, 0.9);
-				ambience.screenCenter();
 		}
 
 		if(isPixelStage) {
@@ -393,6 +391,7 @@ class PlayState extends MusicBeatState
 		if (curStage == 'house')
 			add(ambience);
 			ambience.alpha = 0.7;
+			ambience.screenCenter();
 		
 		#if LUA_ALLOWED
 		luaDebugGroup = new FlxTypedGroup<DebugLuaText>();
