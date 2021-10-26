@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "this mf kid",
-			"indices": []
+			"indices": [],
+			"name": "this mf kid"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				417
 			],
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "kid left",
-			"indices": []
-		},
-		{
 			"loop": false,
-			"offsets": [
-				0,
-				417
-			],
+			"fps": 24,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "kid left",
-			"indices": []
+			"indices": [],
+			"name": "kid left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				417
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "kid left",
-			"indices": []
+			"indices": [],
+			"name": "kid left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				417
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "kid left",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "kid left"
+		},
+		{
+			"offsets": [
+				0,
+				417
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": true,
+			"name": "kid left"
 		}
 	],
 	"no_antialiasing": false,
