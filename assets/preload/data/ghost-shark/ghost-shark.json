@@ -2,7 +2,7 @@
 	"song": {
 		"sectionLengths": [],
 		"player1": "bf",
-		"player2": "ash",
+		"player2": "shark",
 		"notes": [
 			{
 				"sectionNotes": [],
@@ -15,7 +15,7 @@
 					[
 						1888.11188811189,
 						0,
-						1363.63636363636
+						0
 					]
 				],
 				"lengthInSteps": 16,
@@ -507,6 +507,24 @@
 			},
 			{
 				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"bpm": 143,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 143
+			},
+			{
+				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
@@ -517,9 +535,10 @@
 		],
 		"player3": "gf",
 		"song": "ghost-shark",
-		"sections": 0,
 		"needsVoices": false,
+		"sections": 0,
 		"validScore": true,
+		"arrowSkin": "",
 		"stage": "theslide",
 		"speed": 2.5,
 		"bpm": 143

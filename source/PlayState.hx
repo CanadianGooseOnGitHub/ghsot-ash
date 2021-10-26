@@ -372,7 +372,8 @@ class PlayState extends MusicBeatState
 					add(stageCurtains);
 				}
 			case 'theslide': //insert dubstep music
-				slide = new BGSprite('theslide', 0, 0, 0.9, 0.9);
+				slide = new BGSprite('theslide', 300, -500, 0.9, 0.9);
+				slide.setGraphicSize(Std.int(slide.width * 1.7));
 				add(slide);
 			
 			case 'house': //Ash
