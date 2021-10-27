@@ -6,13 +6,31 @@
 	"startUnlocked": true,
 	"weekCharacters": [
 		"",
-		"bf",
-		"gf"
+		"",
+		""
 	],
 	"songs": [
 		[
-			"She Is",
+			"she is",
 			"gf",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"ghost-shark",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"hi-ash",
+			"dad",
 			[
 				146,
 				113,
