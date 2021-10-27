@@ -2511,11 +2511,13 @@ class PlayState extends MusicBeatState
 				blue.cameras = [camHUD];
 				add(blue);
 				FlxG.fullscreen = true;
+				Main.fpsVar.visible = false;
 			}
 
 			case 'Remove Blue Screen':
 			{
 				remove(blue);
+				Main.fpsVar.visible = true;
 			}
 		}
 		callOnLuas('onEvent', [eventName, value1, value2]);
