@@ -315,6 +315,8 @@ class PlayState extends MusicBeatState
 					curStage = 'house';
 				case 'ghost-shark':
 					curStage = 'theslide';
+				case 'my-song-4':
+					curStage = 'Stage';
 				default:
 					curStage = 'stage';
 			}
