@@ -200,6 +200,8 @@ class PlayState extends MusicBeatState
 
 	var ambience:BGSprite;
 	var slide:BGSprite;
+	var forest:BGSprite;
+	var blue:FlxSprite;
 
 	var upperBoppers:BGSprite;
 	var bottomBoppers:BGSprite;
@@ -377,8 +379,8 @@ class PlayState extends MusicBeatState
 				add(slide);
 			
 			case 'house': //Ash
-				var bg:BGSprite = new BGSprite('forest', -350, -150, 0.9, 0.9);
-				add(bg);
+				forest = new BGSprite('forest', -350, -150, 0.9, 0.9);
+				add(forest);
 				
 				ambience = new BGSprite('ambience', 0, 0, 0.9, 0.9);
 		}
@@ -2500,6 +2502,21 @@ class PlayState extends MusicBeatState
 			
 			case 'BG Freaks Expression':
 				if(bgGirls != null) bgGirls.swapDanceType();
+
+			case 'Add Blue Screen':
+			{
+				blue = new FlxSprite().loadGraphic(Paths.image('blue screen'));
+				blue.screenCenter();
+				blue.scrollFactor.set();
+				blue.cameras = [camHUD];
+				add(blue);
+				FlxG.fullscreen = true;
+			}
+
+			case 'Remove Blue Screen':
+			{
+				remove(blue);
+			}
 		}
 		callOnLuas('onEvent', [eventName, value1, value2]);
 	}
@@ -3506,6 +3523,20 @@ class PlayState extends MusicBeatState
 						remove(sad);
 					}
 				});
+			}
+		}
+
+		if (curSong == 'hi-ash')
+		{
+			if (curStep == 1032)
+			{
+				remove(ambience);
+				remove(forest);
+				forest = new BGSprite('blue screen', 0, 0, 0, 0);
+				forest.setGraphicSize(Std.int(forest.width * 1.11));
+				forest.screenCenter();
+				add(forest);
+				dad.alpha += 0.5;
 			}
 		}
 
