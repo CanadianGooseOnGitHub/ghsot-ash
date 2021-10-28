@@ -493,6 +493,8 @@ class PlayState extends MusicBeatState
 
 		switch(curStage)
 		{
+			case 'my-song':
+				dad.y -= 500;
 			case 'limo':
 				resetFastCar();
 				insert(members.indexOf(gfGroup) - 1, fastCar);
