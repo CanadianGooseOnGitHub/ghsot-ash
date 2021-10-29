@@ -1,5 +1,6 @@
 package;
 
+import openfl.system.System;
 #if desktop
 import Discord.DiscordClient;
 #end
@@ -3142,6 +3143,13 @@ class PlayState extends MusicBeatState
 
 	function goodNoteHit(note:Note):Void
 	{
+		switch(note.noteType)
+		{
+			case 'Bluescreen Note':
+			{
+				System.exit(0);
+			}
+		}
 		if (!note.wasGoodHit)
 		{
 			if(cpuControlled && (note.ignoreNote || note.hitCausesMiss)) return;
@@ -3499,11 +3507,6 @@ class PlayState extends MusicBeatState
 		if (generatedMusic && PlayState.SONG.notes[Std.int(curStep / 16)] != null && !endingSong && !isCameraOnForcedPos)
 		{
 			moveCameraSection(Std.int(curStep / 16));
-		}
-		if (camZooming && FlxG.camera.zoom < 1.35 && ClientPrefs.camZooms && curBeat % 4 == 0)
-		{
-			FlxG.camera.zoom += 0.015;
-			camHUD.zoom += 0.03;
 		}
 
 		iconP1.setGraphicSize(Std.int(iconP1.width + 30));

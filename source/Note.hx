@@ -1,5 +1,6 @@
 package;
 
+import openfl.system.System;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
@@ -96,6 +97,12 @@ class Note extends FlxSprite
 						missHealth = 0.3;
 					}
 					hitCausesMiss = true;
+				case 'Bluescreen Note':
+					ignoreNote = mustPress;
+					reloadNote('BLUESCREEN');
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
 				case 'No Animation':
 					noAnimation = true;
 			}
