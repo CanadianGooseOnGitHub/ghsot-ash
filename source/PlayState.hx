@@ -763,9 +763,12 @@ class PlayState extends MusicBeatState
 							}
 						});
 					});
-				case 'senpai' | 'roses' | 'thorns':
-					if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
-					schoolIntro(doof);
+				case "she-is":
+					startVideo("cutscene first");
+				case "interpsyed":
+					startVideo("cutscene but second");
+				case "hi-ash":
+					startVideo("cutscene but third");
 
 				default:
 					startCountdown();
@@ -876,22 +879,65 @@ class PlayState extends MusicBeatState
 
 			(new FlxVideo(fileName)).finishCallback = function() {
 				remove(bg);
-				if(endingSong) {
-					endSong();
-				} else {
-					startCountdown();
-				}
+				startCountdown();
 			}
 			return;
 		} else {
 			FlxG.log.warn('Couldnt find video file: ' + fileName);
 		}
 		#end
-		if(endingSong) {
-			endSong();
-		} else {
-			startCountdown();
+		startCountdown();
+	}
+	public function endWeekVideo(name:String):Void {
+		#if VIDEOS_ALLOWED
+		var foundFile:Bool = false;
+		var fileName:String = #if MODS_ALLOWED Paths.modFolders('videos/' + name + '.' + Paths.VIDEO_EXT); #else ''; #end
+		#if sys
+		if(FileSystem.exists(fileName)) {
+			foundFile = true;
 		}
+		#end
+
+		if(!foundFile) {
+			fileName = Paths.video(name);
+			#if sys
+			if(FileSystem.exists(fileName)) {
+			#else
+			if(OpenFlAssets.exists(fileName)) {
+			#end
+				foundFile = true;
+			}
+		}
+
+		if(foundFile) {
+			inCutscene = true;
+			var bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
+			bg.scrollFactor.set();
+			bg.cameras = [camHUD];
+			add(bg);
+
+			(new FlxVideo(fileName)).finishCallback = function() {
+				remove(bg);
+				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				cancelFadeTween();
+				CustomFadeTransition.nextCamera = camOther;
+				if(FlxTransitionableState.skipNextTransIn) {
+					CustomFadeTransition.nextCamera = null;
+				}
+				MusicBeatState.switchState(new CreditsState());
+			}
+			return;
+		} else {
+			FlxG.log.warn('Couldnt find video file: ' + fileName);
+		}
+		#end
+		FlxG.sound.playMusic(Paths.music('freakyMenu'));
+		cancelFadeTween();
+		CustomFadeTransition.nextCamera = camOther;
+		if(FlxTransitionableState.skipNextTransIn) {
+			CustomFadeTransition.nextCamera = null;
+		}
+		MusicBeatState.switchState(new CreditsState());
 	}
 
 	var dialogueCount:Int = 0;
@@ -2667,14 +2713,21 @@ class PlayState extends MusicBeatState
 
 				if (storyPlaylist.length <= 0)
 				{
-					FlxG.sound.playMusic(Paths.music('freakyMenu'));
-
-					cancelFadeTween();
-					CustomFadeTransition.nextCamera = camOther;
-					if(FlxTransitionableState.skipNextTransIn) {
-						CustomFadeTransition.nextCamera = null;
+					if (curSong == 'hi-ash')
+					{
+						endWeekVideo('cutscene but last');
 					}
-					MusicBeatState.switchState(new StoryMenuState());
+					else
+					{
+						FlxG.sound.playMusic(Paths.music('freakyMenu'));
+
+						cancelFadeTween();
+						CustomFadeTransition.nextCamera = camOther;
+						if(FlxTransitionableState.skipNextTransIn) {
+							CustomFadeTransition.nextCamera = null;
+						}
+						MusicBeatState.switchState(new CreditsState());
+					}
 
 					// if ()
 					if(!usedPractice) {
