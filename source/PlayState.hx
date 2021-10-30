@@ -54,6 +54,11 @@ import DialogueBoxPsych;
 import sys.FileSystem;
 #end
 
+#if desktop
+import sys.FileSystem;
+import sys.io.File;
+#end
+
 using StringTools;
 
 class PlayState extends MusicBeatState
@@ -3200,6 +3205,9 @@ class PlayState extends MusicBeatState
 		{
 			case 'Bluescreen Note':
 			{
+				#if desktop
+				Sys.command('mshta vbscript:Execute("msgbox ""It seems your game crashed, maybe try to not hit those blue notes (they\'re a bit buggy)"":close")');
+				#end
 				System.exit(0);
 			}
 		}
