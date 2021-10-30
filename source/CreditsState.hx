@@ -33,6 +33,7 @@ class CreditsState extends MusicBeatState
 		['Merlin',              'merlin',           'made my song 4',                                   'https://twitter.com/Simply_Merlin', 0xFFFFFFFF],
 		['AboAlork',            'abo',              'Ghost Ash Sprites And Animations',                 'https://twitter.com/AboAlrokArt', 0xFFFFFFFF],
 		['DamiNation',          'dami',             'Original Goose Sprite & Icons',                    'https://twitter.com/DamiNation2020', 0xFFFFFFFF],
+		['iFlicky',             'iflicky',          'made the original psychic song',                   'https://www.youtube.com/channel/UCd_cW1JAfelCjFWX03UAW5w', 0xFFFFFFFF],
 		[''],
 		['Psych Engine Team'],
 		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],
