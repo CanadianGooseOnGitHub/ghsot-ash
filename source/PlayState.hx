@@ -312,7 +312,7 @@ class PlayState extends MusicBeatState
 		if(PlayState.SONG.stage == null || PlayState.SONG.stage.length < 1) {
 			switch (songName)
 			{
-				case 'she-is':
+				case 'she-is' | 'interpsyed':
 					curStage = 'house';
 				case 'ghost-shark':
 					curStage = 'theslide';

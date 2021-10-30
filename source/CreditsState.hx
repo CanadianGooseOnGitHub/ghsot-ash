@@ -29,6 +29,8 @@ class CreditsState extends MusicBeatState
 		['CanadianGoose',       'goose',            'Coding',                                           'https://www.youtube.com/channel/UCfjYxs_8SL1JtL2TqyS-wSg', 0xFFFFFFFF],
 		['Ash',                 'ash',              'ash',                                              'https://twitter.com/ash__i_guess_', 0xFFFFFFFF],
 		['NonsenseNH',          'nonsense',         'Goose Sprites And Animations',                     'https://www.youtube.com/channel/UCnp4LuZgNt0KwiTMSZN7GIw', 0xFFFFFFFF],
+		['Cerbera',             'cerbera',          'charted hi ash',                                   'https://twitter.com/Cerbera_ssb', 0xFFFFFFFF],
+		['Merlin',              'merlin',           'made my song 4',                                   'https://twitter.com/Simply_Merlin', 0xFFFFFFFF],
 		['AboAlork',            'abo',              'Ghost Ash Sprites And Animations',                 'https://twitter.com/AboAlrokArt', 0xFFFFFFFF],
 		['DamiNation',          'dami',             'Original Goose Sprite & Icons',                    'https://twitter.com/DamiNation2020', 0xFFFFFFFF],
 		[''],
